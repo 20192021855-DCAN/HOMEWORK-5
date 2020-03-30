@@ -24,12 +24,15 @@ if __name__ == '__main__':
 ```
 
 运行结果：
+
 <img src="static/checksum.jpg" style="zoom:100%;" />
 
 
 ### P15:
 发送一个分组进入链路的时间 `D_trans = L/R = 12000bit/pkt ÷ 10^9bit/s = 0.012ms/pkt`
+
 利用率 `U_sender = N*L/R ÷ L/R+RTT = N*0.012 ÷ 30.012 >= 0.9`
+
 因此，窗口长度 `N >= 2251` 时，才能使该信道的利用率超过 90%
 
 
