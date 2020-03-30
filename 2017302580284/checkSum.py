@@ -33,26 +33,30 @@ def bin_to_list(bin_str):
     return arr
 
 
-fig = plt.figure(figsize=(12,9))
+fig = plt.figure(figsize=(12, 18))
 x_arr = np.arange(0, 16)
 y_arr = bin_to_list(bin(input_list[0]))
-plt.subplot(231)
+plt.subplot(411)
 plt.title("param1")
-plt.plot(x_arr, y_arr, color="yellow")
+plt.axis([0, 15, 0, 1.2])
+plt.plot(x_arr, y_arr, color="yellow", )
 
 y_arr = bin_to_list(bin(input_list[1]))
-plt.subplot(232)
+plt.subplot(412)
 plt.title("param2")
+plt.axis([0, 15, 0, 1.2])
 plt.plot(x_arr, y_arr, color="red")
 
 y_arr = bin_to_list(bin(input_list[2]))
-plt.subplot(233)
+plt.subplot(413)
 plt.title("param3")
+plt.axis([0, 15, 0, 1.2])
 plt.plot(x_arr, y_arr, color="blue")
 
 y_arr = bin_to_list(bin(check_sum(input_list)))
-plt.subplot(2, 1, 2)
+plt.subplot(414)
 plt.title("checkSum")
+plt.axis([0, 15, 0, 1.2])
 plt.plot(x_arr, y_arr, color="green")
 plt.savefig('checkSum', bbox_inches='tight')
 plt.show()
