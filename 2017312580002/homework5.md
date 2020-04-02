@@ -57,7 +57,7 @@ if "__main__" == __name__:
 1011010100111101
 ```
 
-<img src="C:\Users\junow\Desktop\UDPCheckSum.png" alt="UDPCheckSum" style="zoom:72%;" />
+<img src="https://github.com/20192021855-DCAN/HOMEWORK-5/blob/master/2017312580002/UDPCheckSum.png?raw=true" alt="UDPCheckSum" style="zoom:72%;" />
 
 ------
 
