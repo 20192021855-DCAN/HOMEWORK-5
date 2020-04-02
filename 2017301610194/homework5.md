@@ -26,11 +26,11 @@ if __name__ == '__main__':
 
 ## 运行结果
 
-![avatar](./resource/UDP.png)
+![avatar](./Resource/UDP.png)
 
 ## 习题2
 
-![avatar](./resource/P2.png)
+![avatar](./Resource/P2.png)
 
 从 B 到 C：
    左边的连接：源端口号 80，源 IP 为 B 的 IP；目的端口 26145，目的 IP 为 C 的 IP；
@@ -42,7 +42,7 @@ if __name__ == '__main__':
 
 ## 习题4
 
-![avatar](./resource/P4.png)
+![avatar](./Resource/P4.png)
 
 a. 00111110
 b. 01000000
