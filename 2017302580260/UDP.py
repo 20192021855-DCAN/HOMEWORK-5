@@ -3,7 +3,7 @@ def checkSum(data):
     ans = (ans & 0xFFFF) + (ans >> 16)
     ans = ans + data[2]
     ans = (ans & 0xFFFF) + (ans >> 16)
-    return ~ans
+    return 0xffff-ans
 
 
 if __name__ == '__main__':
