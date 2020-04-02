@@ -1,6 +1,8 @@
 # 网络及分布式计算作业5
 
+
 ## UDP的16位校检和
+
 
 ~~~ python
 import re
@@ -26,9 +28,11 @@ if __name__ == '__main__':
 
 ## 运行结果
 
+
 ![avatar](./Resource/UDP.png)
 
 ## 习题2
+
 
 ![avatar](./Resource/P2.png)
 
@@ -41,6 +45,7 @@ if __name__ == '__main__':
 
 
 ## 习题4
+
 
 ![avatar](./Resource/P4.png)
 
