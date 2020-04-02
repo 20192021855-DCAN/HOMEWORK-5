@@ -1,6 +1,6 @@
 #!/usr/bin/env python 
 # -*- coding:utf-8 -*-
-import matplotlib.pyplot as plt  # 为方便简介为plt
+import matplotlib.pyplot as plt  # 为方便简写为plt
 
 class JudgeRecCode:
     def judge(self, s1, s2, s3):
