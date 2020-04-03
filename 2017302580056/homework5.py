@@ -10,8 +10,9 @@ def checkSum(mylist):
 
     sum=0;
 
+    sum = mylist[0];
     for i in range(0,2):
-        sum=mylist[i]+mylist[i+1];
+        sum+=mylist[i+1];
         if sum > pow(2,16):
             sum-=pow(2,16);
             sum+=1;
